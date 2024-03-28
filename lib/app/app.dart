@@ -8,9 +8,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Material(
+    return Material(
       child: MaterialApp(
         title: "flutter learn",
+        theme: ThemeData(primarySwatch: Colors.deepOrange),
         home: HomeView(),
       ),
     );
